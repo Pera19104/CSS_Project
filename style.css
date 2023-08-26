@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pozadina {
+    background-color: #1f2937;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero .levo {
+    gap: .5rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .desno {
+    width: 350px;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    /* border: 1px solid; */
+}
+
+.kocke {
+    display: flex;
+    gap: 1rem;
+}
+
+.prvi, 
+.drugi,
+.treci,
+.cetvrti {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.prvi, 
+.drugi,
+.treci,
+.cetvrti p {
+    width: 150px;
+}
+
+.kocka {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: .5rem;
+}
+
+.citat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    color: rgb(37, 33, 33);
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.citat .q {
+    font-style: italic;
+    width: 500px;
+    text-align: justify;
+}
+
+.citat .span {
+    text-align: right;
+    font-weight: bold;
+}
+
+.prozor {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pozadina_dva {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    width: 700px;
+    color: white;
+}
+
+.pozadina_dva .dugme_dva button{
+    padding: .5rem 2.5rem;
+    background-color: skyblue;
+    border: 2px solid white;
+    color: white;
+}
+
+.pozadina_dva .dugme_dva button:hover {
+    background-color: blue;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
